@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+IceBreakNeophyte,154,"('GOLD', 'IV', 35)",False,423.5,5318808967,1867,False
+yrDoctor,220,"('SILVER', 'I', 15)",False,381.5,5318808967,1867,False
+PMP Alpha win,387,"('GOLD', 'IV', 28)",False,422.8,5318808967,1867,False
+ES DE LA CALLE,196,"('GOLD', 'I', 43)",False,484.3,5318808967,1867,False
+Zanpi,221,"('GOLD', 'IV', 12)",False,421.2,5318808967,1867,False
+Gloomy Heart,491,"('GOLD', 'IV', 11)",False,421.1,5318808967,1867,True
+Thowk,196,"('GOLD', 'III', 31)",True,443.1,5318808967,1867,True
+Corsaire Albator,45,"('GOLD', 'I', 32)",False,483.2,5318808967,1867,True
+Catch My Sapling,495,"('SILVER', 'IV', 0)",False,320.0,5318808967,1867,True
+HenryDWelsh,136,"('SILVER', 'I', 30)",False,383.0,5318808967,1867,True

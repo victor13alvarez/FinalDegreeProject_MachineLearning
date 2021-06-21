@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+alphalok,108,"('SILVER', 'III', 36)",False,343.6,5318891047,2743,False
+iren sempai,34,"('BRONZE', 'I', 61)",False,286.1,5318891047,2743,False
+MariioDragos,32,"('BRONZE', 'I', 61)",False,286.1,5318891047,2743,False
+SpicyMcHaggis,165,"('SILVER', 'IV', 82)",False,328.2,5318891047,2743,False
+zaraky shinigami,45,"('SILVER', 'IV', 0)",False,320.0,5318891047,2743,False
+AB99X,34,"('SILVER', 'II', 0)",False,360.0,5318891047,2743,True
+mmpbteo,42,"('SILVER', 'III', 72)",False,347.2,5318891047,2743,True
+Sognier,122,"('SILVER', 'IV', 52)",False,325.2,5318891047,2743,True
+Empressa,144,"('BRONZE', 'II', 91)",True,269.1,5318891047,2743,True
+Tayer,111,"('SILVER', 'I', 24)",True,382.4,5318891047,2743,True

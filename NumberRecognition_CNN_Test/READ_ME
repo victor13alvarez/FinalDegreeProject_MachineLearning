@@ -1,0 +1,3 @@
+On this folder is an already trained model.
+To execute the model and its interface -> python CN-GUI.py
+To retrain the model -> python main.py

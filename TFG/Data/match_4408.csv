@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+M0H4W5,179,"('GOLD', 'III', 44)",True,444.4,5318891357,2859,True
+KUZZC0,533,"('GOLD', 'IV', 51)",True,425.1,5318891357,2859,True
+Cocoballs,180,"('SILVER', 'III', 22)",False,342.2,5318891357,2859,True
+CocobaIls,402,"('GOLD', 'II', 75)",False,467.5,5318891357,2859,True
+Testint,288,"('GOLD', 'III', 13)",True,441.3,5318891357,2859,True
+Corvus Dominus,59,"('GOLD', 'II', 14)",False,461.4,5318891357,2859,False
+ikbenfab,305,"('GOLD', 'IV', 23)",False,422.3,5318891357,2859,False
+Canisii,110,"('GOLD', 'II', 0)",False,460.0,5318891357,2859,False
+TeddyBen,200,"('SILVER', 'III', 66)",False,346.6,5318891357,2859,False
+Starcàll,108,"('GOLD', 'IV', 0)",False,420.0,5318891357,2859,False

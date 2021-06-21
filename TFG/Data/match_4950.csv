@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+Sir GodzillaHulk,585,"('SILVER', 'III', 33)",False,343.3,5318896560,1468,False
+ChoCo420,586,"('GOLD', 'IV', 45)",False,424.5,5318896560,1468,False
+One Berzerker,290,"('SILVER', 'III', 47)",False,344.7,5318896560,1468,False
+Nivroum,138,"('SILVER', 'I', 30)",False,383.0,5318896560,1468,False
+ Adibar,272,"('SILVER', 'II', 16)",False,361.6,5318896560,1468,False
+YupeeDoor,79,"('SILVER', 'II', 80)",False,368.0,5318896560,1468,True
+HardCurry,260,"('SILVER', 'I', 50)",True,385.0,5318896560,1468,True
+Zotop,104,"('GOLD', 'IV', 34)",True,423.4,5318896560,1468,True
+RoseTFB,45,"('SILVER', 'II', 0)",False,360.0,5318896560,1468,True
+Sember,219,"('SILVER', 'II', 79)",False,367.9,5318896560,1468,True

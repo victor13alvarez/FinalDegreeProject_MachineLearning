@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+scyllasona,142,"('BRONZE', 'I', 79)",False,287.9,5318818199,1603,True
+Onögal,91,"('BRONZE', 'I', 85)",False,288.5,5318818199,1603,True
+GetElo,151,"('BRONZE', 'I', 100)",False,290.0,5318818199,1603,True
+VeroZeytox,292,"('SILVER', 'IV', 16)",False,321.6,5318818199,1603,True
+NARUSAN dz,104,"('SILVER', 'IV', 69)",True,326.9,5318818199,1603,True
+SJGaammaa,117,"('BRONZE', 'II', 75)",False,267.5,5318818199,1603,False
+Xozhurrx,216,"('BRONZE', 'III', 70)",False,247.0,5318818199,1603,False
+Helllbrecht,45,"('BRONZE', 'I', 50)",False,285.0,5318818199,1603,False
+Gyvros,61,"('BRONZE', 'II', 81)",False,268.1,5318818199,1603,False
+Salvajito,51,"('BRONZE', 'I', 0)",False,280.0,5318818199,1603,False

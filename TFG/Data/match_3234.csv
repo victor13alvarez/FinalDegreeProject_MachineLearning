@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+almairi 2,35,Unknown,Unknown,Unknown,5318870006,1460,True
+DisValkyrie,48,Unknown,Unknown,Unknown,5318870006,1460,True
+NooWaytoHitme,120,"('BRONZE', 'III', 43)",False,244.3,5318870006,1460,True
+LeRoRoBoB,35,"('BRONZE', 'II', 83)",False,268.3,5318870006,1460,True
+mone70,50,"('SILVER', 'IV', 26)",True,322.6,5318870006,1460,True
+KsWalid,34,"('BRONZE', 'II', 17)",False,261.7,5318870006,1460,False
+ButterCrumpets,50,"('BRONZE', 'I', 13)",False,281.3,5318870006,1460,False
+D4ndude,35,"('BRONZE', 'IV', 32)",False,223.2,5318870006,1460,False
+Planchagragas,32,"('BRONZE', 'I', 100)",True,290.0,5318870006,1460,False
+Weknoz,36,"('BRONZE', 'III', 48)",False,244.8,5318870006,1460,False

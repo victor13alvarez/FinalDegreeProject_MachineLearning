@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+simcasual,300,"('SILVER', 'IV', 75)",False,327.5,5318827406,2272,False
+Volh,105,"('SILVER', 'III', 10)",True,341.0,5318827406,2272,False
+SmokerPt69,190,"('SILVER', 'III', 25)",True,342.5,5318827406,2272,False
+MaelstromPulse,102,"('SILVER', 'II', 20)",True,362.0,5318827406,2272,False
+Tari97,117,"('SILVER', 'IV', 65)",False,326.5,5318827406,2272,False
+C9Parti,171,"('SILVER', 'III', 60)",False,346.0,5318827406,2272,True
+Banditz988,187,"('SILVER', 'IV', 27)",False,322.7,5318827406,2272,True
+GamesAndArts,244,"('SILVER', 'I', 78)",False,387.8,5318827406,2272,True
+LickMy2Moons,208,"('SILVER', 'III', 30)",False,343.0,5318827406,2272,True
+Identikit,39,"('SILVER', 'II', 70)",False,367.0,5318827406,2272,True

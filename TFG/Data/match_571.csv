@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+Delete Turkq,32,"('SILVER', 'I', 5)",False,380.5,5318809614,1435,True
+Mr Rulet,35,"('GOLD', 'II', 46)",False,464.6,5318809614,1435,True
+Göteborgs rapé,31,"('SILVER', 'I', 29)",False,382.9,5318809614,1435,True
+A1rlay,34,"('SILVER', 'I', 52)",True,385.2,5318809614,1435,True
+Husykrider,73,"('GOLD', 'IV', 1)",False,420.1,5318809614,1435,True
+El Black Mamba,65,"('GOLD', 'IV', 49)",False,424.9,5318809614,1435,False
+Farquadne,35,"('SILVER', 'I', 69)",False,386.9,5318809614,1435,False
+Haillibig,36,"('SILVER', 'I', 17)",False,381.7,5318809614,1435,False
+Hoomax,235,"('GOLD', 'III', 16)",False,441.6,5318809614,1435,False
+Hinny,196,Unknown,Unknown,Unknown,5318809614,1435,False

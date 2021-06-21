@@ -1,0 +1,9 @@
+To Get RiotGames Data into CSV files
+-> GetMathchesIntoCSV
+
+To Update how mmr is calculated
+-> Change EloDictionary function value returns
+-> ModifyDataSet
+
+To train and test the neural model
+-> NeuralModelForPrediction

@@ -1,0 +1,11 @@
+summonerName,summonerLevel,elo,hot_streak,CalculatedMMR,match_id,GameDuration,Victory
+kanazawa,209,"('SILVER', 'II', 13)",False,361.3,5318880380,2333,False
+ZachPickle,169,"('SILVER', 'IV', 16)",False,321.6,5318880380,2333,False
+Nayakou,67,"('SILVER', 'III', 30)",False,343.0,5318880380,2333,False
+DevilBard,60,"('SILVER', 'II', 42)",False,364.2,5318880380,2333,False
+Tonkers,86,"('SILVER', 'I', 10)",False,381.0,5318880380,2333,False
+SaiBruxedo,162,"('SILVER', 'III', 4)",False,340.4,5318880380,2333,True
+Kaneeda,269,"('SILVER', 'III', 21)",False,342.1,5318880380,2333,True
+HöllenHamschter,184,"('SILVER', 'I', 69)",True,386.9,5318880380,2333,True
+CARABINIER,148,"('SILVER', 'II', 65)",False,366.5,5318880380,2333,True
+Dr3ik0kg,129,"('GOLD', 'IV', 0)",False,420.0,5318880380,2333,True
