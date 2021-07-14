@@ -9,7 +9,7 @@ import os
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense, Activation, BatchNormalization
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau
-
+from keras.utils.vis_utils import plot_model
 # Input Layer: It represent input image data. It will reshape image into single diminsion array. Example your image is 64x64 = 4096, it will convert to (4096,1) array.
 # Conv Layer: This layer will extract features from image.
 # Pooling Layer: This layerreduce the spatial volume of input image after convolution.
@@ -25,6 +25,7 @@ IMAGE_SIZE = (IMAGE_WIDTH, IMAGE_HEIGHT)
 IMAGE_CHANNELS = 3
 TRAIN_PATH = "train/"
 TEST_PATH = "test/"
+RESULTS_PATH = "Results/"
 BATCH_SIZE = 50
 
 
@@ -86,6 +87,7 @@ def prepare_model():
     model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 
     model.summary()
+    plot_model(model, to_file=os.path.join(RESULTS_PATH, 'ModelSummary.png'), show_shapes=True)
     return model
 
 
@@ -172,6 +174,7 @@ def check_generator_image(train_df, train_datagen):
             plt.imshow(image)
             break
     plt.tight_layout()
+    plt.savefig(os.path.join('Results', 'check_generator_image.png'))
     plt.show()
 
 
@@ -202,6 +205,7 @@ def visualize_training(history, epochs):
 
     legend = plt.legend(loc='best', shadow=True)
     plt.tight_layout()
+    plt.savefig(os.path.join('Results', 'visualize_training.png'))
     plt.show()
 
 
@@ -253,6 +257,7 @@ def show_image_result(test_df):
         plt.imshow(img)
         plt.xlabel(filename + '(' + "{}".format(category) + ')')
     plt.tight_layout()
+    plt.savefig(os.path.join('Results', 'show_image_result.png'))
     plt.show()
 
 

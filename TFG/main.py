@@ -12,9 +12,7 @@ testArray4 = [[0.4, 0.5, 0.2, 0.2, 0.9, 0.9, 0.7, 0.7, 0.2, 0.2, 0, 1, 1, 0, 0, 
 
 if __name__ == '__main__':
     Train.trainModel()
-    if "mnist.h5" not in os.listdir("./Results"):
-        Train.trainModel()
-
+    #if "mnist.h5" not in os.listdir("./Results"):
     model = ModelImport.load_model("./Results/mnist.h5")
     # input_data = receiveInput()
     print("The estimated duration of match is ", model.predict(testArray1), "seconds")

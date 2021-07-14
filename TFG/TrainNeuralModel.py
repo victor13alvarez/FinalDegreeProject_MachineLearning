@@ -1,6 +1,8 @@
 import PrepareDataForNeuralModel as Data
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import LSTM
+
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
@@ -64,12 +66,17 @@ def trainModel():
     x = df_normalized.iloc[:, :-1].values
     y = df_normalized.iloc[:, -1].values  # 1 output
     n_features = x.shape[1]  # 20 valores de entrada
+    ##LSTM
+    # n_features = x.reshape((len(x), 1, 1))
+    ##FINLSTM
     # split data into train and test sets
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=3)
     # define the keras model #sigmoid
     model = Sequential()
-    model.add(Dense(30, input_dim=n_features, activation='relu'))
-    model.add(Dense(15, activation='relu'))
+    # input_dim=n_features
+    # , activation='relu'
+    model.add(Dense(32, input_dim=n_features, activation='relu'))
+    model.add(Dense(16, activation='sigmoid'))
     model.add(Dense(8, activation='relu'))
     model.add(Dense(1, activation='linear'))
 
@@ -86,6 +93,10 @@ def trainModel():
     # verbose 0, 1 or 2 you just say how do you want to 'see' the training progress for each epoch.
     history = model.fit(x_train, y_train, validation_split=0.2, epochs=150, batch_size=32, verbose=0, shuffle=True)
 
+    # LSTM
+    # history = model.fit(x_train, y_train, validation_split=0.2, epochs=150, batch_size=32, verbose=0, shuffle=True)
+    # LSTM
+
     # Evalaute Model
     predictions = model.predict(x_test)
     error = mean_absolute_error(y_test, predictions)
@@ -98,7 +109,6 @@ def trainModel():
     plt.title('model loss')
     plt.ylabel('loss')
     plt.xlabel('epoch')
-    plt.legend(['train', 'test'], loc='upper left')
     plt.savefig(os.path.join('Results', 'TrainingHistory.png'))
     plt.show()
 

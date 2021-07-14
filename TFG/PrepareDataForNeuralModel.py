@@ -55,4 +55,5 @@ def prepareDataSetForNeuralModel():
 
     dataframeToModel = pd.DataFrame(DataFrame)
     dataframeToModel.to_csv(DATAFRAME_PREPARED,index=False)
+    print(dataframeToModel.count())
     return dataframeToModel

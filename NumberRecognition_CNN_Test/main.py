@@ -5,11 +5,18 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
+import os
+from keras.utils.vis_utils import plot_model
+import matplotlib.pyplot as plt
+
+
+
 
 
 # the data, split between train and test sets
 
 # CONSTANTS
+FolderResultsPath = "Results"
 
 def start_program():
     split_data()
@@ -50,6 +57,8 @@ def create_model(input_shape, y_train, y_test, x_train, x_test):
     model.add(Dense(num_classes, activation='softmax'))
     model.compile(loss=keras.losses.categorical_crossentropy, optimizer='Adam',
                   metrics=['accuracy'])
+    model.summary()
+    plot_model(model, to_file=os.path.join(FolderResultsPath, 'ModelSummary.png'), show_shapes=True)
     train_model(model, y_train, y_test, x_train, x_test, batch_size, epochs)
 
 
@@ -60,12 +69,20 @@ def train_model(model, y_train, y_test, x_train, x_test, batch_size, epochs):
     model.save('mnist.h5')
     print("Saving the model as mnist.h5")
     evaluate_model(model, x_test, y_test)
+    plt.plot(hist.history['loss'])
+    plt.plot(hist.history['val_loss'])
+    plt.title('model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.savefig(os.path.join('Results', 'TrainingHistory.png'))
+    plt.show()
 
 
 def evaluate_model(model, x_test, y_test):
     score = model.evaluate(x_test, y_test, verbose=0)
     print('Test loss:', score[0])
     print('Test accuracy:', score[1])
+
 
 
 # Press the green button in the gutter to run the script.
